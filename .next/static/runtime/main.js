@@ -5706,7 +5706,7 @@ function connect(options) {
       error.name = err.name;
       error.stack = err.stack; // __NEXT_DIST_DIR is provided by webpack
 
-      (0, _sourceMapSupport.rewriteStacktrace)(error, "/home/INSTINCTOOLS/oxy/vadim/projects documents/with-redux-app/.next");
+      (0, _sourceMapSupport.rewriteStacktrace)(error, "/home/vadim/Documents/nextJS/nextJS/.next");
       return error;
     }
   };
@@ -17966,7 +17966,7 @@ module.exports = function(module) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /home/INSTINCTOOLS/oxy/vadim/projects documents/with-redux-app/node_modules/next/dist/client/next-dev */"./node_modules/next/dist/client/next-dev.js");
+module.exports = __webpack_require__(/*! /home/vadim/Documents/nextJS/nextJS/node_modules/next/dist/client/next-dev */"./node_modules/next/dist/client/next-dev.js");
 
 
 /***/ }),

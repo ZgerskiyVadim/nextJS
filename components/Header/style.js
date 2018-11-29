@@ -1,45 +1,93 @@
 export default () => (
     <style jsx="true">{`
-      .header {
+        .header {
         position: fixed;
-        padding-bottom: 2.7777777777777777rem;
-        background-color: rgba(5, 26, 45, 0.75);
+        padding-top: 1.6rem;
+        padding-bottom: 1.6rem;
         width: 100%;
-        background: #f5f5f5;
         height: 3.88889rem;
         position: absolute;
         z-index: 120;
-      }
-      .container {
+    }
+        .container {
         max-width: 1230px;
         height: 100%;
         width: auto;
         margin-right: auto;
         margin-left: auto;
         padding: 0 1.66667rem;
-      }
-      .navbar-inner {
+    }
+        .navbar-inner {
+        display: flex;
+        align-items: center;
         height: 100%;
         position: relative;
         width: 100%;
         max-width: 100%;
         flex: 0 0 auto;
         flex-basis: 100%;
-      }
-      .navbar-logo {
+    }
+        .navbar-logo {
         display: flex;
         align-items: center;
-      }
-      .navbar-logo a {
+    }
+        .navbar-logo a {
         text-decoration: none;
         font-size: 1.22222rem;
         color: #000;
         height: 50px;
         overflow: hidden;
-      }
+    }
 
-      .navbar-logo a img {
-        width: 9.833333333333334rem;
-      }
+        .navbar-logo a img {
+        width: 11rem;
+    }
+        .navbar-nav {
+        display: flex;
+        align-items: center;
+        position: absolute;
+        height: 100%;
+        line-height: 1;
+        right: 0!important;
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+    }
+        .navbar-nav .menu {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        padding: 0;
+        height: 100%;
+        align-items: center;
+    }
+        .navbar-nav .menu .menu-item {
+        list-style: none;
+        font-size: 0.8888888888888888em;
+        line-height: 1.7777777777778;
+        letter-spacing: 0rem;
+        line-height: 0;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+    }
+    .navbar-nav .menu .menu-item:first-child a {
+        padding-left: 0;
+        text-decoration: none;
+        color: #1573dd;
+    }
+        .navbar-nav .menu .menu-item a {
+        padding: 0 1.3888888888889rem;
+        text-decoration: none;
+        color: #1573dd;
+    }
+        .navbar-nav .menu .menu-item span {
+        color: #1472ac;
+        border-bottom-color: #ffffff;
+        color: #ffffff;
+    }
+        .navbar-nav .menu .menu-item span:hover {
+        color: #1472ac;
+    }
     `}</style>
 )
