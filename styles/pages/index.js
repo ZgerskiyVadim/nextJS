@@ -1,12 +1,12 @@
 import React from "react";
 
 export default () => (
-    <style jsx global>{`
+    <style jsx="true" global>{`
         body {
             margin: 0;
             font-size: 18px;
             line-height: 1.66667;
-            font-family: 'Open Sans',Arial,sans-serif;
+            font-family: 'Open Sans', 'Arial', 'sans-serif';
             box-sizing: border-box;
             width: 100%;
             min-height: 100%;

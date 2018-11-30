@@ -143,7 +143,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _style__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./style */ "./components/Button/style.js");
-var _jsxFileName = "/home/vadim/Documents/nextJS/nextJS/components/Button/index.js";
+var _jsxFileName = "/home/INSTINCTOOLS/oxy/vadim/projects documents/with-redux-app/components/Button/index.js";
 
 
 
@@ -189,11 +189,11 @@ var Button = function Button(_ref) {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "/home/vadim/Documents/nextJS/nextJS/components/Button/style.js";
+var _jsxFileName = "/home/INSTINCTOOLS/oxy/vadim/projects documents/with-redux-app/components/Button/style.js";
 
 /* harmony default export */ __webpack_exports__["default"] = (function () {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("style", {
-    jsx: true,
+    jsx: "true",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 2
@@ -218,7 +218,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "next/link");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _style__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./style */ "./components/Header/style.js");
-var _jsxFileName = "/home/vadim/Documents/nextJS/nextJS/components/Header/index.js";
+var _jsxFileName = "/home/INSTINCTOOLS/oxy/vadim/projects documents/with-redux-app/components/Header/index.js";
 
 
 
@@ -253,13 +253,13 @@ var Header = function Header() {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: '/',
     __source: {
       fileName: _jsxFileName,
       lineNumber: 10
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: '/',
     title: "Lition",
     __source: {
       fileName: _jsxFileName,
@@ -432,7 +432,7 @@ var Header = function Header() {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "/home/vadim/Documents/nextJS/nextJS/components/Header/style.js";
+var _jsxFileName = "/home/INSTINCTOOLS/oxy/vadim/projects documents/with-redux-app/components/Header/style.js";
 
 /* harmony default export */ __webpack_exports__["default"] = (function () {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("style", {
@@ -456,23 +456,32 @@ var _jsxFileName = "/home/vadim/Documents/nextJS/nextJS/components/Header/style.
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-redux */ "react-redux");
-/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_redux__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var redux__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! redux */ "redux");
-/* harmony import */ var redux__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(redux__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _actions_action_creators_posts__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./../actions/action_creators/posts */ "./actions/action_creators/posts/index.js");
-/* harmony import */ var _components_Header__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/Header */ "./components/Header/index.js");
-/* harmony import */ var _components_Button__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/Button */ "./components/Button/index.js");
-/* harmony import */ var _styles_pages__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../styles/pages */ "./styles/pages/index.js");
-var _jsxFileName = "/home/vadim/Documents/nextJS/nextJS/pages/index.js";
+/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/regenerator */ "@babel/runtime/regenerator");
+/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/head */ "next/head");
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-redux */ "react-redux");
+/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_redux__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var redux__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! redux */ "redux");
+/* harmony import */ var redux__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(redux__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _actions_action_creators_posts__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./../actions/action_creators/posts */ "./actions/action_creators/posts/index.js");
+/* harmony import */ var _components_Header__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/Header */ "./components/Header/index.js");
+/* harmony import */ var _components_Button__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/Button */ "./components/Button/index.js");
+/* harmony import */ var _styles_pages__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../styles/pages */ "./styles/pages/index.js");
+
+var _jsxFileName = "/home/INSTINCTOOLS/oxy/vadim/projects documents/with-redux-app/pages/index.js";
 
 function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; var ownKeys = Object.keys(source); if (typeof Object.getOwnPropertySymbols === 'function') { ownKeys = ownKeys.concat(Object.getOwnPropertySymbols(source).filter(function (sym) { return Object.getOwnPropertyDescriptor(source, sym).enumerable; })); } ownKeys.forEach(function (key) { _defineProperty(target, key, source[key]); }); } return target; }
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } }
+
+function _asyncToGenerator(fn) { return function () { var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function _next(value) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value); } function _throw(err) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err); } _next(undefined); }); }; }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
@@ -489,6 +498,7 @@ function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.g
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
 
 function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
 
 
 
@@ -518,207 +528,251 @@ function (_React$Component) {
     key: "render",
     value: function render() {
       console.log('state', this.props.posts);
-      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 24
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Header__WEBPACK_IMPORTED_MODULE_4__["default"], {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 25
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
-        className: "section",
+      return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 26
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "container",
+      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_2___default.a, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 27
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("title", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 28
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "row",
+      }, "Lition"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
+        name: "viewport",
+        content: "initial-scale=1.0, width=device-width",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 29
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "column head-top-text",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 30
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "content-wrapper",
+      })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_Header__WEBPACK_IMPORTED_MODULE_6__["default"], {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 31
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "column-content",
+      }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("section", {
+        className: "section",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 33
+          lineNumber: 32
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+        className: "container",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 34
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+        className: "row",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 35
         },
         __self: this
-      }, "Kunden und Erzeuger.", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+        className: "column head-top-text",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 36
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+        className: "content-wrapper",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 37
         },
         __self: this
-      }), "Direkt verbunden."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
         className: "column-content",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 39
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h1", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 40
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 41
+        },
+        __self: this
+      }, "Kunden und Erzeuger.", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 43
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+      }), "Direkt verbunden."))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+        className: "column-content",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 44
+          lineNumber: 49
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h3", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 45
+          lineNumber: 50
         },
         __self: this
-      }, "Direktstrom durch Blockchain*."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "column-content head-h4-text",
+      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 51
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, "Direktstrom durch Blockchain*."))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+        className: "column-content head-h4-text",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 52
+          lineNumber: 57
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 53
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 54
-        },
-        __self: this
-      }, "100% \xD6kostrom\xA0zu g\xFCnstigen Preisen. Die Lition\xA0Energieb\xF6rse vernetzt Konsumenten und Erzeuger auf direktem Wege.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
+      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 58
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h4", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 59
         },
         __self: this
-      }, "Dein Strom - Dein Kraftwerk - Du hast die Wahl!", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 61
+          lineNumber: 60
         },
         __self: this
-      }), "Revolutioniere mit uns den Energiemarkt!")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, "100% \xD6kostrom\xA0zu g\xFCnstigen Preisen. Die Lition\xA0Energieb\xF6rse vernetzt Konsumenten und Erzeuger auf direktem Wege.")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h4", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 64
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 65
+        },
+        __self: this
+      }, "Dein Strom - Dein Kraftwerk - Du hast die Wahl!", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 67
+        },
+        __self: this
+      }), "Revolutioniere mit uns den Energiemarkt!")))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
         className: "column-content content-button",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 68
+          lineNumber: 74
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Button__WEBPACK_IMPORTED_MODULE_5__["default"], {
+      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_Button__WEBPACK_IMPORTED_MODULE_7__["default"], {
         href: 'http://www.lition.de/tarif',
         title: 'Unser Tarif',
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 69
+          lineNumber: 75
         },
         __self: this
-      })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      })))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
         className: "ce-image",
         "data-align": "left",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 78
+          lineNumber: 84
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
         className: "is-content",
         src: "https://www.lition.de/wp-content/uploads/2018/03/180327-den-stage-illusration@3x.png",
         alt: "180327-den-stage-illusration@3x",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 79
+          lineNumber: 85
         },
         __self: this
-      }))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_pages__WEBPACK_IMPORTED_MODULE_6__["default"], {
+      }))))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_styles_pages__WEBPACK_IMPORTED_MODULE_8__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 91
+          lineNumber: 97
         },
         __self: this
       }));
     }
   }], [{
     key: "getInitialProps",
-    value: function getInitialProps(_ref) {
-      var reduxStore = _ref.reduxStore,
-          req = _ref.req;
-      var isServer = !!req; // reduxStore.dispatch();
+    value: function () {
+      var _getInitialProps = _asyncToGenerator(
+      /*#__PURE__*/
+      _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee(_ref) {
+        var reduxStore, req, isServer;
+        return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee$(_context) {
+          while (1) {
+            switch (_context.prev = _context.next) {
+              case 0:
+                reduxStore = _ref.reduxStore, req = _ref.req;
+                isServer = !!req;
+                _context.next = 4;
+                return setTimeout(function () {}, 2000);
 
-      return {};
-    }
+              case 4:
+                return _context.abrupt("return", {
+                  hey: 'HEY'
+                });
+
+              case 5:
+              case "end":
+                return _context.stop();
+            }
+          }
+        }, _callee, this);
+      }));
+
+      return function getInitialProps(_x) {
+        return _getInitialProps.apply(this, arguments);
+      };
+    }()
   }]);
 
   return Index;
-}(react__WEBPACK_IMPORTED_MODULE_0___default.a.Component);
+}(react__WEBPACK_IMPORTED_MODULE_1___default.a.Component);
 
 var mapStateToProps = function mapStateToProps(state) {
   return {
-    posts: state.Posts.posts.data.comment_status
+    posts: state.Posts.posts.data
   };
 };
 
 var mapDispatchToProps = function mapDispatchToProps(dispatch) {
   return {
-    actions: Object(redux__WEBPACK_IMPORTED_MODULE_2__["bindActionCreators"])(_objectSpread({}, _actions_action_creators_posts__WEBPACK_IMPORTED_MODULE_3__), dispatch)
+    actions: Object(redux__WEBPACK_IMPORTED_MODULE_4__["bindActionCreators"])(_objectSpread({}, _actions_action_creators_posts__WEBPACK_IMPORTED_MODULE_5__), dispatch)
   };
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (Object(react_redux__WEBPACK_IMPORTED_MODULE_1__["connect"])(mapStateToProps, mapDispatchToProps)(Index));
+/* harmony default export */ __webpack_exports__["default"] = (Object(react_redux__WEBPACK_IMPORTED_MODULE_3__["connect"])(mapStateToProps, mapDispatchToProps)(Index));
 
 /***/ }),
 
@@ -735,13 +789,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "/home/vadim/Documents/nextJS/nextJS/styles/pages/index.js";
+var _jsxFileName = "/home/INSTINCTOOLS/oxy/vadim/projects documents/with-redux-app/styles/pages/index.js";
 
 
 /* harmony default export */ __webpack_exports__["default"] = (function () {
   return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-    styleId: "1804446917",
-    css: "body{margin:0;font-size:18px;line-height:1.66667;font-family:'Open Sans',Arial,sans-serif;box-sizing:border-box;width:100%;min-height:100%;-webkit-font-smoothing:antialiased;overflow-y:scroll;overflow-x:hidden;}.section{padding-top:10rem;padding-bottom:8.055555555555555rem;background-image:url(https://www.lition.de/wp-content/uploads/2018/04/stage_bg-6.png);background-size:cover;background-position:0% 0%;background-attachment:scroll;background-color:transparent;}.section .container .row{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;}.column-content{padding-top:0.5555555555555556rem;}.column-content span{color:rgb(255,255,255);}.column-content h1{margin:0;font-size:2.25rem;line-height:2.4rem;}.column-content h3{font-size:1.1rem;line-height:2rem;margin:0;}.column-content h3 span{color:#48d376;font-weight:500;}.column-content.head-h4-text{padding:1.1111111111111112rem 3.3333333333333335rem 0 0;}.column-content h4{font-size:1.49rem;line-height:1.49rem;margin:0 0 1.66667rem 0;}.column-content h4 span{font-size:16px;line-height:28px;font-weight:400;}img.is-content{max-width:100%;height:auto;}.column-content.content-button{padding:1.1rem 0 2.7rem 0;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL3ZhZGltL0RvY3VtZW50cy9uZXh0SlMvbmV4dEpTL3N0eWxlcy9wYWdlcy9pbmRleC5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFHdUIsQUFHc0IsQUFZUyxBQVNULEFBR3FCLEFBR1QsQUFHcEIsQUFLUSxBQUtILEFBSTBDLEFBR2xDLEFBS1AsQUFLSSxBQUlXLFNBNURQLEFBOEJMLEtBVUYsQ0FZQyxBQUtELEVBdEJDLENBdkIyQixBQW1DeEIsS0FwQnBCLENBMUI0QixFQTRENUIsQ0E5Qm1CLEFBMkJuQixHQWpCQSxFQVlnQixFQTdCaEIsQUFZUyxJQVllLEtBWHhCLENBbkNpRCxFQThCakQsRUFzQkEsTUF6QzhGLEVBK0I5RixNQUtBLFlBNUJBLFdBbEI4QixzQkFDWCxXQUNLLGdCQUNtQixNQVFiLHNCQUNJLE9BUlIsa0JBQ0EsQ0FRVyxpQkFQckMsWUFRcUMsNkJBQ3JDIiwiZmlsZSI6Ii9ob21lL3ZhZGltL0RvY3VtZW50cy9uZXh0SlMvbmV4dEpTL3N0eWxlcy9wYWdlcy9pbmRleC5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCBmcm9tIFwicmVhY3RcIjtcblxuZXhwb3J0IGRlZmF1bHQgKCkgPT4gKFxuICAgIDxzdHlsZSBqc3ggZ2xvYmFsPntgXG4gICAgICAgIGJvZHkge1xuICAgICAgICAgICAgbWFyZ2luOiAwO1xuICAgICAgICAgICAgZm9udC1zaXplOiAxOHB4O1xuICAgICAgICAgICAgbGluZS1oZWlnaHQ6IDEuNjY2Njc7XG4gICAgICAgICAgICBmb250LWZhbWlseTogJ09wZW4gU2FucycsQXJpYWwsc2Fucy1zZXJpZjtcbiAgICAgICAgICAgIGJveC1zaXppbmc6IGJvcmRlci1ib3g7XG4gICAgICAgICAgICB3aWR0aDogMTAwJTtcbiAgICAgICAgICAgIG1pbi1oZWlnaHQ6IDEwMCU7XG4gICAgICAgICAgICAtd2Via2l0LWZvbnQtc21vb3RoaW5nOiBhbnRpYWxpYXNlZDtcbiAgICAgICAgICAgIG92ZXJmbG93LXk6IHNjcm9sbDtcbiAgICAgICAgICAgIG92ZXJmbG93LXg6IGhpZGRlbjtcbiAgICB9XG4gICAgICAgIC5zZWN0aW9uIHtcbiAgICAgICAgICAgIHBhZGRpbmctdG9wOiAxMHJlbTtcbiAgICAgICAgICAgIHBhZGRpbmctYm90dG9tOiA4LjA1NTU1NTU1NTU1NTU1NXJlbTtcbiAgICAgICAgICAgIGJhY2tncm91bmQtaW1hZ2U6IHVybChodHRwczovL3d3dy5saXRpb24uZGUvd3AtY29udGVudC91cGxvYWRzLzIwMTgvMDQvc3RhZ2VfYmctNi5wbmcpO1xuICAgICAgICAgICAgYmFja2dyb3VuZC1zaXplOiBjb3ZlcjtcbiAgICAgICAgICAgIGJhY2tncm91bmQtcG9zaXRpb246IDAlIDAlO1xuICAgICAgICAgICAgYmFja2dyb3VuZC1hdHRhY2htZW50OiBzY3JvbGw7XG4gICAgICAgICAgICBiYWNrZ3JvdW5kLWNvbG9yOiB0cmFuc3BhcmVudDtcbiAgICB9XG4gICAgLnNlY3Rpb24gLmNvbnRhaW5lciAucm93IHtcbiAgICAgICAgZGlzcGxheTogZmxleDtcbiAgICB9XG4gICAgLmNvbHVtbi1jb250ZW50IHtcbiAgICAgICAgcGFkZGluZy10b3A6IDAuNTU1NTU1NTU1NTU1NTU1NnJlbTtcbiAgICB9XG4gICAgLmNvbHVtbi1jb250ZW50IHNwYW4ge1xuICAgICAgICBjb2xvcjogcmdiKDI1NSwgMjU1LCAyNTUpO1xuICAgIH1cbiAgICAuY29sdW1uLWNvbnRlbnQgaDEge1xuICAgIG1hcmdpbjogMDtcbiAgICBmb250LXNpemU6IDIuMjVyZW07XG4gICAgbGluZS1oZWlnaHQ6IDIuNHJlbTtcbiAgICB9XG4gICAgLmNvbHVtbi1jb250ZW50IGgze1xuICAgIGZvbnQtc2l6ZTogMS4xcmVtO1xuICAgIGxpbmUtaGVpZ2h0OiAycmVtO1xuICAgIG1hcmdpbjogMDtcbiAgICB9XG4gICAgLmNvbHVtbi1jb250ZW50IGgzIHNwYW4ge1xuICAgIGNvbG9yOiAjNDhkMzc2O1xuICAgIGZvbnQtd2VpZ2h0OiA1MDA7XG4gICAgfVxuICAgIC5jb2x1bW4tY29udGVudC5oZWFkLWg0LXRleHQge1xuICAgIHBhZGRpbmc6IDEuMTExMTExMTExMTExMTExMnJlbSAzLjMzMzMzMzMzMzMzMzMzMzVyZW0gMCAwO1xuICAgIH1cbiAgICAuY29sdW1uLWNvbnRlbnQgaDR7XG4gICAgICAgIGZvbnQtc2l6ZTogMS40OXJlbTtcbiAgICBsaW5lLWhlaWdodDogMS40OXJlbTtcbiAgICBtYXJnaW46IDAgMCAxLjY2NjY3cmVtIDA7XG4gICAgfVxuICAgIC5jb2x1bW4tY29udGVudCBoNCBzcGFuIHtcbiAgICBmb250LXNpemU6IDE2cHg7XG4gICAgbGluZS1oZWlnaHQ6IDI4cHg7XG4gICAgZm9udC13ZWlnaHQ6IDQwMDtcbiAgICB9XG4gICAgaW1nLmlzLWNvbnRlbnQge1xuICAgICAgICBtYXgtd2lkdGg6IDEwMCU7XG4gICAgICAgIGhlaWdodDogYXV0bztcbiAgICB9XG4gICAgLmNvbHVtbi1jb250ZW50LmNvbnRlbnQtYnV0dG9uIHtcbiAgICAgICAgcGFkZGluZzogMS4xcmVtIDAgMi43cmVtIDA7XG4gICAgfVxuICAgIGB9PC9zdHlsZT5cbikiXX0= */\n/*@ sourceURL=/home/vadim/Documents/nextJS/nextJS/styles/pages/index.js */",
+    styleId: "248328706",
+    css: "body{margin:0;font-size:18px;line-height:1.66667;font-family:'Open Sans','Arial','sans-serif';box-sizing:border-box;width:100%;min-height:100%;-webkit-font-smoothing:antialiased;overflow-y:scroll;overflow-x:hidden;}.section{padding-top:10rem;padding-bottom:8.055555555555555rem;background-image:url(https://www.lition.de/wp-content/uploads/2018/04/stage_bg-6.png);background-size:cover;background-position:0% 0%;background-attachment:scroll;background-color:transparent;}.section .container .row{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;}.column-content{padding-top:0.5555555555555556rem;}.column-content span{color:rgb(255,255,255);}.column-content h1{margin:0;font-size:2.25rem;line-height:2.4rem;}.column-content h3{font-size:1.1rem;line-height:2rem;margin:0;}.column-content h3 span{color:#48d376;font-weight:500;}.column-content.head-h4-text{padding:1.1111111111111112rem 3.3333333333333335rem 0 0;}.column-content h4{font-size:1.49rem;line-height:1.49rem;margin:0 0 1.66667rem 0;}.column-content h4 span{font-size:16px;line-height:28px;font-weight:400;}img.is-content{max-width:100%;height:auto;}.column-content.content-button{padding:1.1rem 0 2.7rem 0;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL0lOU1RJTkNUT09MUy9veHkvdmFkaW0vcHJvamVjdHMgZG9jdW1lbnRzL3dpdGgtcmVkdXgtYXBwL3N0eWxlcy9wYWdlcy9pbmRleC5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFHOEIsQUFHc0IsQUFZUyxBQVNULEFBR3FCLEFBR1QsQUFHcEIsQUFLUSxBQUtILEFBSTBDLEFBR2xDLEFBS1AsQUFLSSxBQUlXLFNBNURQLEFBOEJMLEtBVUYsQ0FZQyxBQUtELEVBdEJDLENBdkIyQixBQW1DeEIsS0FwQnBCLENBMUI0QixFQTRENUIsQ0E5Qm1CLEFBMkJuQixHQWpCQSxFQVlnQixFQTdCaEIsQUFZUyxJQVllLEtBWHhCLENBbkN1RCxFQThCdkQsRUFzQkEsTUF6QzhGLEVBK0I5RixNQUtBLFlBNUJBLGVBbEI4QixzQkFDWCxXQUNLLGdCQUNtQixFQVFiLHNCQUNJLFdBUlIsZUFTVyxHQVJYLGtCQUMxQixRQVFxQyw2QkFDckMiLCJmaWxlIjoiL2hvbWUvSU5TVElOQ1RPT0xTL294eS92YWRpbS9wcm9qZWN0cyBkb2N1bWVudHMvd2l0aC1yZWR1eC1hcHAvc3R5bGVzL3BhZ2VzL2luZGV4LmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0IGZyb20gXCJyZWFjdFwiO1xuXG5leHBvcnQgZGVmYXVsdCAoKSA9PiAoXG4gICAgPHN0eWxlIGpzeD1cInRydWVcIiBnbG9iYWw+e2BcbiAgICAgICAgYm9keSB7XG4gICAgICAgICAgICBtYXJnaW46IDA7XG4gICAgICAgICAgICBmb250LXNpemU6IDE4cHg7XG4gICAgICAgICAgICBsaW5lLWhlaWdodDogMS42NjY2NztcbiAgICAgICAgICAgIGZvbnQtZmFtaWx5OiAnT3BlbiBTYW5zJywgJ0FyaWFsJywgJ3NhbnMtc2VyaWYnO1xuICAgICAgICAgICAgYm94LXNpemluZzogYm9yZGVyLWJveDtcbiAgICAgICAgICAgIHdpZHRoOiAxMDAlO1xuICAgICAgICAgICAgbWluLWhlaWdodDogMTAwJTtcbiAgICAgICAgICAgIC13ZWJraXQtZm9udC1zbW9vdGhpbmc6IGFudGlhbGlhc2VkO1xuICAgICAgICAgICAgb3ZlcmZsb3cteTogc2Nyb2xsO1xuICAgICAgICAgICAgb3ZlcmZsb3cteDogaGlkZGVuO1xuICAgIH1cbiAgICAgICAgLnNlY3Rpb24ge1xuICAgICAgICAgICAgcGFkZGluZy10b3A6IDEwcmVtO1xuICAgICAgICAgICAgcGFkZGluZy1ib3R0b206IDguMDU1NTU1NTU1NTU1NTU1cmVtO1xuICAgICAgICAgICAgYmFja2dyb3VuZC1pbWFnZTogdXJsKGh0dHBzOi8vd3d3LmxpdGlvbi5kZS93cC1jb250ZW50L3VwbG9hZHMvMjAxOC8wNC9zdGFnZV9iZy02LnBuZyk7XG4gICAgICAgICAgICBiYWNrZ3JvdW5kLXNpemU6IGNvdmVyO1xuICAgICAgICAgICAgYmFja2dyb3VuZC1wb3NpdGlvbjogMCUgMCU7XG4gICAgICAgICAgICBiYWNrZ3JvdW5kLWF0dGFjaG1lbnQ6IHNjcm9sbDtcbiAgICAgICAgICAgIGJhY2tncm91bmQtY29sb3I6IHRyYW5zcGFyZW50O1xuICAgIH1cbiAgICAuc2VjdGlvbiAuY29udGFpbmVyIC5yb3cge1xuICAgICAgICBkaXNwbGF5OiBmbGV4O1xuICAgIH1cbiAgICAuY29sdW1uLWNvbnRlbnQge1xuICAgICAgICBwYWRkaW5nLXRvcDogMC41NTU1NTU1NTU1NTU1NTU2cmVtO1xuICAgIH1cbiAgICAuY29sdW1uLWNvbnRlbnQgc3BhbiB7XG4gICAgICAgIGNvbG9yOiByZ2IoMjU1LCAyNTUsIDI1NSk7XG4gICAgfVxuICAgIC5jb2x1bW4tY29udGVudCBoMSB7XG4gICAgbWFyZ2luOiAwO1xuICAgIGZvbnQtc2l6ZTogMi4yNXJlbTtcbiAgICBsaW5lLWhlaWdodDogMi40cmVtO1xuICAgIH1cbiAgICAuY29sdW1uLWNvbnRlbnQgaDN7XG4gICAgZm9udC1zaXplOiAxLjFyZW07XG4gICAgbGluZS1oZWlnaHQ6IDJyZW07XG4gICAgbWFyZ2luOiAwO1xuICAgIH1cbiAgICAuY29sdW1uLWNvbnRlbnQgaDMgc3BhbiB7XG4gICAgY29sb3I6ICM0OGQzNzY7XG4gICAgZm9udC13ZWlnaHQ6IDUwMDtcbiAgICB9XG4gICAgLmNvbHVtbi1jb250ZW50LmhlYWQtaDQtdGV4dCB7XG4gICAgcGFkZGluZzogMS4xMTExMTExMTExMTExMTEycmVtIDMuMzMzMzMzMzMzMzMzMzMzNXJlbSAwIDA7XG4gICAgfVxuICAgIC5jb2x1bW4tY29udGVudCBoNHtcbiAgICAgICAgZm9udC1zaXplOiAxLjQ5cmVtO1xuICAgIGxpbmUtaGVpZ2h0OiAxLjQ5cmVtO1xuICAgIG1hcmdpbjogMCAwIDEuNjY2NjdyZW0gMDtcbiAgICB9XG4gICAgLmNvbHVtbi1jb250ZW50IGg0IHNwYW4ge1xuICAgIGZvbnQtc2l6ZTogMTZweDtcbiAgICBsaW5lLWhlaWdodDogMjhweDtcbiAgICBmb250LXdlaWdodDogNDAwO1xuICAgIH1cbiAgICBpbWcuaXMtY29udGVudCB7XG4gICAgICAgIG1heC13aWR0aDogMTAwJTtcbiAgICAgICAgaGVpZ2h0OiBhdXRvO1xuICAgIH1cbiAgICAuY29sdW1uLWNvbnRlbnQuY29udGVudC1idXR0b24ge1xuICAgICAgICBwYWRkaW5nOiAxLjFyZW0gMCAyLjdyZW0gMDtcbiAgICB9XG4gICAgYH08L3N0eWxlPlxuKSJdfQ== */\n/*@ sourceURL=/home/INSTINCTOOLS/oxy/vadim/projects documents/with-redux-app/styles/pages/index.js */",
     __self: this
   });
 });
@@ -757,6 +811,28 @@ var _jsxFileName = "/home/vadim/Documents/nextJS/nextJS/styles/pages/index.js";
 
 module.exports = __webpack_require__(/*! ./pages/index.js */"./pages/index.js");
 
+
+/***/ }),
+
+/***/ "@babel/runtime/regenerator":
+/*!*********************************************!*\
+  !*** external "@babel/runtime/regenerator" ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("@babel/runtime/regenerator");
+
+/***/ }),
+
+/***/ "next/head":
+/*!****************************!*\
+  !*** external "next/head" ***!
+  \****************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("next/head");
 
 /***/ }),
 

@@ -1,5 +1,5 @@
 export default () => (
-    <style jsx>{`
+    <style jsx="true">{`
       .button {
         background-color: #48d376;
         border-radius: 0.2222222222222222rem;

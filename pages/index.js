@@ -1,4 +1,5 @@
 import React from 'react'
+import Head from 'next/head'
 import {connect} from 'react-redux'
 import {bindActionCreators} from 'redux';
 import * as postsActionCreators from './../actions/action_creators/posts';
@@ -8,10 +9,11 @@ import Button from '../components/Button'
 import Style from '../styles/pages'
 
 class Index extends React.Component {
-    static getInitialProps ({ reduxStore, req }) {
+    static async getInitialProps ({ reduxStore, req }) {
         const isServer = !!req
+        await setTimeout(()=>{}, 2000);
         // reduxStore.dispatch();
-        return {}
+        return {hey: 'HEY'}
     }
 
     componentDidMount () {
@@ -22,6 +24,10 @@ class Index extends React.Component {
         console.log('state', this.props.posts);
         return (
             <div>
+                <Head>
+                    <title>Lition</title>
+                    <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+                </Head>
                 <Header />
                 <section className='section'>
 
@@ -95,7 +101,7 @@ class Index extends React.Component {
 }
 
 const mapStateToProps = (state) => ({
-    posts: state.Posts.posts.data.comment_status
+    posts: state.Posts.posts.data
 });
 
 const mapDispatchToProps = (dispatch) => ({
