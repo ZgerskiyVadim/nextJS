@@ -1,12 +1,11 @@
 import React from 'react';
-import Style from './style';
+import './style.scss';
 
 const Button = ({href, title}) => (
     <div className={'button'}>
         <a href={href} target="_self">
             {title}
         </a>
-        <Style/>
     </div>
 );
 

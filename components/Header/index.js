@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import Style from './style';
+import './style.scss';
 
 const Header = () => (
     <header className={'header'}>
@@ -37,7 +37,6 @@ const Header = () => (
                 </nav>
             </div>
         </div>
-        <Style/>
     </header>
 );
 

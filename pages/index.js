@@ -1,4 +1,5 @@
 import React from 'react'
+import ReactHtmlParser from 'react-html-parser';
 import Head from 'next/head'
 import {connect} from 'react-redux'
 import {bindActionCreators} from 'redux';
@@ -6,14 +7,17 @@ import * as postsActionCreators from './../actions/action_creators/posts';
 
 import Header from '../components/Header'
 import Button from '../components/Button'
-import Style from '../styles/pages'
+import '../styles/pages/styleIndex.scss';
 
 class Index extends React.Component {
-    static async getInitialProps ({ reduxStore, req }) {
+
+    static getInitialProps ({ reduxStore, req }) {
         const isServer = !!req
-        await setTimeout(()=>{}, 2000);
+        const promise = new Promise((resolve, reject) => {
+            setTimeout(() => (resolve({hey: "ssssasd"})), 5000);
+        });
         // reduxStore.dispatch();
-        return {hey: 'HEY'}
+        return promise
     }
 
     componentDidMount () {
@@ -21,6 +25,7 @@ class Index extends React.Component {
     }
 
     render () {
+        console.log('heY', this.props.hey);
         console.log('state', this.props.posts);
         return (
             <div>
@@ -30,7 +35,7 @@ class Index extends React.Component {
                 </Head>
                 <Header />
                 <section className='section'>
-
+                    <span>{this.props.hey}</span>
                     <div className="container">
                         <div className="row">
                             <div className="column head-top-text">
@@ -55,20 +60,23 @@ class Index extends React.Component {
                                     </div>
 
                                     <div className="column-content head-h4-text">
-                                        <div>
-                                            <h4>
-                                                <span>
-                                                    100% Ökostrom&nbsp;zu günstigen Preisen. Die Lition&nbsp;Energiebörse vernetzt Konsumenten und Erzeuger auf direktem Wege.
-                                                </span>
-                                            </h4>
-                                            <h4>
-                                                <span>
-                                                    Dein Strom - Dein Kraftwerk - Du hast die Wahl!
-                                                    <br/>
-                                                    Revolutioniere mit uns den Energiemarkt!
-                                                </span>
-                                            </h4>
-                                        </div>
+                                        {
+                                            ReactHtmlParser(this.props.posts.content && this.props.posts.content.rendered)
+                                        }
+                                        {/*<div>*/}
+                                            {/*<h4>*/}
+                                                {/*<span>*/}
+                                                    {/*100% Ökostrom&nbsp;zu günstigen Preisen. Die Lition&nbsp;Energiebörse vernetzt Konsumenten und Erzeuger auf direktem Wege.*/}
+                                                {/*</span>*/}
+                                            {/*</h4>*/}
+                                            {/*<h4>*/}
+                                                {/*<span>*/}
+                                                    {/*Dein Strom - Dein Kraftwerk - Du hast die Wahl!*/}
+                                                    {/*<br/>*/}
+                                                    {/*Revolutioniere mit uns den Energiemarkt!*/}
+                                                {/*</span>*/}
+                                            {/*</h4>*/}
+                                        {/*</div>*/}
                                     </div>
 
                                     <div className="column-content content-button">
@@ -94,7 +102,6 @@ class Index extends React.Component {
                 {/*title={'some title'}*/}
                 {/*/>*/}
                 {/*</section>*/}
-                <Style />
             </div>
         )
     }
