@@ -2,8 +2,7 @@ import React from 'react'
 import ReactHtmlParser from 'react-html-parser';
 import Head from 'next/head'
 import {connect} from 'react-redux'
-import {bindActionCreators} from 'redux';
-import * as postsActionCreators from './../actions/action_creators/posts';
+import { performGetPostsData } from '../action_performers/posts';
 
 import Header from '../components/Header'
 import Button from '../components/Button'
@@ -14,14 +13,14 @@ class Index extends React.Component {
     static getInitialProps ({ reduxStore, req }) {
         const isServer = !!req
         const promise = new Promise((resolve, reject) => {
-            setTimeout(() => (resolve({hey: "ssssasd"})), 5000);
+            setTimeout(() => (resolve({hey: "ssssasd"})), 0);
         });
         // reduxStore.dispatch();
         return promise
     }
 
     componentDidMount () {
-        this.props.actions.getPostsRequest();
+        performGetPostsData();
     }
 
     render () {
@@ -61,7 +60,7 @@ class Index extends React.Component {
 
                                     <div className="column-content head-h4-text">
                                         {
-                                            ReactHtmlParser(this.props.posts.content && this.props.posts.content.rendered)
+                                            ReactHtmlParser(this.props.error ? this.props.error.status : this.props.posts && this.props.posts.content && this.props.posts.content.rendered)
                                         }
                                         {/*<div>*/}
                                             {/*<h4>*/}
@@ -105,16 +104,11 @@ class Index extends React.Component {
             </div>
         )
     }
+    static mapStateToProps = (state) => ({
+        posts: state.Posts.posts.data,
+        error: state.Posts.posts.error,
+        loading: state.Posts.posts.loading
+    })
 }
 
-const mapStateToProps = (state) => ({
-    posts: state.Posts.posts.data
-});
-
-const mapDispatchToProps = (dispatch) => ({
-    actions: bindActionCreators({
-        ...postsActionCreators
-    }, dispatch)
-});
-
-export default connect(mapStateToProps, mapDispatchToProps)(Index)
+export default connect(Index.mapStateToProps)(Index)
