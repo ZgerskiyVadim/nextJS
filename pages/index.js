@@ -2,6 +2,7 @@ import React from 'react'
 import ReactHtmlParser from 'react-html-parser';
 import {connect} from 'react-redux'
 import { performGetPostsData } from '../action_performers/posts';
+import { performSetupLoaderVisibility } from '../action_performers/app';
 
 import { Header, Button } from '../components'
 import '../styles/pages/styleIndex.scss';
@@ -19,6 +20,14 @@ class Index extends React.Component {
 
     componentDidMount () {
         performGetPostsData();
+    }
+
+    componentDidUpdate(prevProps) {
+        const { loading } = this.props;
+
+        if (prevProps.loading !== loading) {
+            performSetupLoaderVisibility('posts', loading);
+        }
     }
 
     render () {
