@@ -1,6 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import ActiveLink from '../ActiveLink';
+import { PATHS } from '../../constants'
 import './style.scss';
 
 const Header = () => (
@@ -16,10 +17,10 @@ const Header = () => (
                 </div>
                 <nav className={'navbar-nav'}>
                     <ul className="menu">
-                        <ActiveLink className="menu-item" href='/'>
+                        <ActiveLink className="menu-item" href={PATHS.overview.path}>
                             <span>Home</span>
                         </ActiveLink>
-                        <ActiveLink className="menu-item" href='/lition'>
+                        <ActiveLink className="menu-item" href={PATHS.lition.path}>
                             <span>Lition</span>
                         </ActiveLink>
                         <li className="menu-item">
