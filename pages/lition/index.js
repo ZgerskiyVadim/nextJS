@@ -1,9 +1,19 @@
 import React from 'react';
+import { Header } from '../../components'
 
-const indexPage = () => (
+const LitionPage = () => (
     <div>
+        <Header />
         <h1>Hey from lition</h1>
     </div>
 );
 
-export default indexPage;
+LitionPage.getInitialProps = () => {
+    const promise = new Promise((resolve, reject) => {
+        setTimeout(() => (resolve({hey: "ssssasd"})), 2000);
+    });
+    // reduxStore.dispatch();
+    return promise
+};
+
+export default LitionPage;

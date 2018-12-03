@@ -1,11 +1,9 @@
 import React from 'react'
 import ReactHtmlParser from 'react-html-parser';
-import Head from 'next/head'
 import {connect} from 'react-redux'
 import { performGetPostsData } from '../action_performers/posts';
 
-import Header from '../components/Header'
-import Button from '../components/Button'
+import { Header, Button } from '../components'
 import '../styles/pages/styleIndex.scss';
 
 class Index extends React.Component {
@@ -24,14 +22,9 @@ class Index extends React.Component {
     }
 
     render () {
-        console.log('heY', this.props.hey);
-        console.log('state', this.props.posts);
+        console.log('posts', this.props.posts);
         return (
             <div>
-                <Head>
-                    <title>Lition</title>
-                    <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-                </Head>
                 <Header />
                 <section className='section'>
                     <span>{this.props.hey}</span>

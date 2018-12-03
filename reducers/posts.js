@@ -2,7 +2,7 @@ export const initialState = {
     posts: {data: [], loading: false, error: null}
 };
 
-export function Posts(state = initialState, action) {
+export function postsReducer(state = initialState, action) {
     switch (action.type) {
         case 'GET_POSTS_DATA': {
             return {

@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import ActiveLink from '../ActiveLink';
 import './style.scss';
 
 const Header = () => (
@@ -15,9 +16,12 @@ const Header = () => (
                 </div>
                 <nav className={'navbar-nav'}>
                     <ul className="menu">
-                        <li className="menu-item">
-                            <a href=""><span>Home</span></a>
-                        </li>
+                        <ActiveLink className="menu-item" href='/'>
+                            <span>Home</span>
+                        </ActiveLink>
+                        <ActiveLink className="menu-item" href='/lition'>
+                            <span>Lition</span>
+                        </ActiveLink>
                         <li className="menu-item">
                             <a href=""><span>Vorteile</span></a>
                         </li>
